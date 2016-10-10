@@ -6,6 +6,7 @@
  * @author Nicolai
  *
  */
-public class SalesOrder {
+public class OrderLine {
 
+	private int amount;
 }
