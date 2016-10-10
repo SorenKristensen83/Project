@@ -2,25 +2,13 @@ package db;
 
 import java.sql.*;
 
-/**
- * @Author Kis Boisen Hansen
- * @Version 2006.10.02 - revised marts 2009 FEN
- * @version 2010.10.07 - new connection 
- * @version 2011.11.02 - new methods to handle transaction
- * This class is used to create the connection to the database
- * It is implemented as a singleton. The constructor is private to ensure that only
- * one object of the class is generated
- * Version for Sql Server 2014 the database i located on kraka.ucn.dk
- */
 
 public class DbConnection
 {   //Constants used to get access to the database
 	//SQL Server
    private static final String  driver = "jdbc:sqlserver://kraka.ucn.dk:1433";
-   //private static final String  driver = "jdbc:sqlserver://localhost:1433";
    private static final String  databaseName = ";databaseName=UCN_dmaa0216_2Sem_5";
     //SQL Server
-  //  private static String  userName = ";user=sa";
     private static String  userName = "; user=UCN_dmaa0216_2Sem_5";
     private static String password = ";password=Password1!";
    

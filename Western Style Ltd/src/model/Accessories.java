@@ -7,7 +7,7 @@ package model;
  * @author Nicolai
  *
  */
-public class Equipment {
+public class Accessories {
 	
 	private String type;
 	private String description;
