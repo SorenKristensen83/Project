@@ -7,6 +7,6 @@ package db;
  * @author Nicolai
  *
  */
-public class DbWesternStyle {
+public class DbOrder {
 
 }
