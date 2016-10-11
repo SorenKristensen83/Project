@@ -8,5 +8,4 @@ package db;
  *
  */
 public class DbProduct {
-hej
 }
